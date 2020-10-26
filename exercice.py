@@ -17,6 +17,6 @@ if __name__ == '__main__':
             a= fichier1.read
             b=fichier2.read
             same =  a==b
-            r
+    return -1 if same else f1.tell()
 
     pass
