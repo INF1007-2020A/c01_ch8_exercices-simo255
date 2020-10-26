@@ -11,7 +11,7 @@
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
-    with open() as f:
-        with open () as k:
-            
+    with open() as f, open() as k:
+        
+
     pass
