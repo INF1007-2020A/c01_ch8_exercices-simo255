@@ -12,7 +12,7 @@
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     with open() as f, open() as k:
-        for 
+        for row in f.rea
         
 
     pass
