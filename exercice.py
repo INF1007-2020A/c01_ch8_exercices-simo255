@@ -23,6 +23,6 @@ def spacetripler(f1, f2):
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     comparer('fichier1.txt', 'fichier2.txt')
-    spacetripler()
+    spacetripler('f1.txt')
 
     pass
