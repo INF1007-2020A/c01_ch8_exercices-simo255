@@ -16,7 +16,7 @@ def comparer(fichierr1 : str, fichierr2 : str):
             same =  a==b
     return -1 if same else fichierr1.tell
 
-def spacetripler(f1, f2):
+def spacetripler(f1):
     with open(f1, "r") as data, open(f2, 'w') as result:
         result.write(data.read().replace(' ', '   '))
     return result
