@@ -7,7 +7,7 @@
 
 
 # TODO: Définissez vos fonction ici
-def comparer(fichier1 : str, fichier2 : str):
+def comparer(fichierr1 : str, fichierr2 : str):
     with open(fichier1, 'r') as f, open(fichier2,"r") as k:
         same = True
         while same:
