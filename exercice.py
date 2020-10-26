@@ -18,6 +18,6 @@ def comparer(fichierr1 : str, fichierr2 : str):
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
-    comparer(fichier1, fichier2)
+    comparer(fichier1.txt, fichier2.txt)
 
     pass
