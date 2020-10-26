@@ -16,6 +16,6 @@ if __name__ == '__main__':
         while same:
             a= fichier1.read
             b=fichier2.read
-            
+            same a==b
 
     pass
