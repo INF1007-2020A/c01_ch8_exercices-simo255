@@ -7,10 +7,6 @@
 
 
 # TODO: Définissez vos fonction ici
-
-
-if __name__ == '__main__':
-    # TODO: Appelez vos fonctions ici
     with open(fichier1, 'r') as f, open(fichier2,"r") as k:
         same = True
         while same:
@@ -18,5 +14,9 @@ if __name__ == '__main__':
             b=fichier2.read
             same =  a==b
     return -1 if same else f1.tell
+
+if __name__ == '__main__':
+    # TODO: Appelez vos fonctions ici
+
 
     pass
