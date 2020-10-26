@@ -14,6 +14,5 @@ if __name__ == '__main__':
     with open(fichier1, 'r') as f, open(fichier2,"r") as k:
         for row in f.readfile():
             if 
-        
 
     pass
