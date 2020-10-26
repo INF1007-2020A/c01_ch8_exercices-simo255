@@ -16,6 +16,7 @@ def comparer(fichierr1 : str, fichierr2 : str):
             same =  a==b
     return -1 if same else fichierr1.tell
 
+def spacetripler()
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     comparer('fichier1.txt', 'fichier2.txt')
