@@ -7,6 +7,7 @@
 
 
 # TODO: Définissez vos fonction ici
+def omparer
     with open(fichier1, 'r') as f, open(fichier2,"r") as k:
         same = True
         while same:
