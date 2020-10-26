@@ -14,7 +14,7 @@ def comparer(fichierr1 : str, fichierr2 : str):
             a= fichier1.read
             b=fichier2.read
             same =  a==b
-    return -1 if same else f1.tell
+    return -1 if same else fichierr1.tell
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
