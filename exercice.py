@@ -13,7 +13,7 @@ if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     with open() as f, open() as k:
         for row in f.readfile():
-            
+            if 
         
 
     pass
