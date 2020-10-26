@@ -11,7 +11,7 @@ def comparer(fichierr1 : str, fichierr2 : str):
     with open(fichierr1, 'r') as f, open(fichierr2,"r") as k:
         same = True
         while same:
-            a= fichier1.read
+            a= fichietr1.read
             b=fichier2.read
             same =  a==b
     return -1 if same else fichierr1.tell
