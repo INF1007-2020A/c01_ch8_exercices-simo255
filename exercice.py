@@ -19,6 +19,7 @@ def comparer(fichierr1 : str, fichierr2 : str):
 def spacetripler(f1, f2):
     with open(f1, "r") as data, open(f2, 'r') as result:
         result.write(data.read().replace(' ', '   '))
+    
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     comparer('fichier1.txt', 'fichier2.txt')
