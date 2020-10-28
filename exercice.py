@@ -21,10 +21,17 @@ def spacetripler(f1):
         result.write(data.read().replace(' ', '   '))
     return result
 
-def notecalc(file1, file2):
-    with open(file1, "r") as data, open(file2, "w") as result:
-        for lignes in file1:
-            notes= file1.readline()
+def assign_note_letter(note_file, target_file):
+    correspondances = {20: "F", 40: "D", 50: "C", 70: "B", 85: "A"}
+    with open(note_file, 'r') as note_data, open(target_file, 'w') as target:
+        for line in note_data.readlines():
+            note = int(line)
+            for grade in correspondances.keys():
+                if grade == 85 and note > grade:
+                    target.write("A*")
+                if note <= grade:
+                    target.write(correspondances[grade])
+                    break
         
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
