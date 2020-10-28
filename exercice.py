@@ -24,4 +24,4 @@ if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     spacetripler('f1.txt')
 
-    pass
+    
