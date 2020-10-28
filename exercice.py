@@ -38,7 +38,7 @@ def numpicker():
             if nombres is int:
                 chiffres.append(nombres)
                 sorted(chiffres)
-                
+    return chiffres
 
 
 
