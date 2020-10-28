@@ -37,7 +37,9 @@ def numpicker():
         for nombres in numbers.readlines():
             if nombres is int:
                 chiffres.append(nombres)
-                sort(ch)
+                sorted(chiffres)
+                
+
 
 
             e
