@@ -35,6 +35,6 @@ def assign_note_letter(note_file, target_file):
         
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
-    spacetripler('f1.txt')
+    spacetripler('notes.txt')
 
     
