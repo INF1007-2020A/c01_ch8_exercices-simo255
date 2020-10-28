@@ -36,9 +36,7 @@ def numpicker():
     with open('exemple.txt', 'r') as numbers:
         for nombres in numbers.readlines():
             if nombres is int:
-                chiffres.append(nombres)
-            else:
-                
+                chiffres.append(nomb
 
             e
 if __name__ == '__main__':
