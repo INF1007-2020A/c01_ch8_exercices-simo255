@@ -21,7 +21,7 @@ def spacetripler(f1):
         result.write(data.read().replace(' ', '   '))
     return result
 
-def notecalc()
+def notecalc(file1, file2):
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     spacetripler('f1.txt')
