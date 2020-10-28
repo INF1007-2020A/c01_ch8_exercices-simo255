@@ -20,6 +20,8 @@ def spacetripler(f1):
     with open(f1, "r") as data, open(f2, 'w') as result:
         result.write(data.read().replace(' ', '   '))
     return result
+
+def notecalc()
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     spacetripler('f1.txt')
