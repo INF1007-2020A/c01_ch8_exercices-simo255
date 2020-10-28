@@ -31,8 +31,8 @@ def assign_note_letter(note_file, target_file):
                     target.write(correspondances[grade] + "\n")
                     break
         
-def numpicker¨():
-    chiffrres=[]
+def numpicker():
+    chiffres=[]
     with open('exemple.txt', 'r') as numbers:
         for nombres in numbers.readlines():
             if nombres is int:
