@@ -25,7 +25,7 @@ def notecalc(file1, file2):
     with open(file1, "r") as data, open(file2, "w") as result:
         for lignes in file1:
             notes= file1.readline()
-            
+        
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     spacetripler('f1.txt')
