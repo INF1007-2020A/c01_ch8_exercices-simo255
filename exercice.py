@@ -30,7 +30,7 @@ def assign_note_letter(note_file, target_file):
                 if grade == 85 and note > grade:
                     target.write("A*")
                 if note <= grade:
-                    target.write(correspondances[grade] + " " \n)
+                    target.write(correspondances[grade] + " " "\n")
                     break
         
 if __name__ == '__main__':
