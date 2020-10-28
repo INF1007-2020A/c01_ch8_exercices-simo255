@@ -32,11 +32,12 @@ def assign_note_letter(note_file, target_file):
                     break
         
 def numpicker¨():
-    chiffres=[]
-    with open('exemple.txt', 'r') as numbers:
+chiffres=[]
+with open('exemple.txt', 'r') as numbers:
         for nombres in numbers.readlines():
             if nombres is int:
                 chiffres.append(nombres)
+            e
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     assign_note_letter('notes.txt', "lol.txt")
