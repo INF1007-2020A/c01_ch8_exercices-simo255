@@ -34,7 +34,8 @@ def assign_note_letter(note_file, target_file):
 def numpicker¨():
     chiffres=[]
     with open('exemple.txt', 'r') as numbers:
-        for nombres in 
+        for nombres in numbers.readlines():
+            
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
     assign_note_letter('notes.txt', "lol.txt")
